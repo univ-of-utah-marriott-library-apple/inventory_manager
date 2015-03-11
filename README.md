@@ -9,12 +9,12 @@ A script for OS X that discovers client/machine specific information and publish
 * [Purpose](#purpose) - what is this script for?
 * [Usage](#usage) - details of invocation
   * [Variables](#variables)
-  * [Getting warranty information from Apple](#Getting-warranty-information-from-Apple)
-  * [Checking for a firmware password](#Checking-for-a-firmware-password)
+  * [Getting warranty information from Apple](#getting-warranty-information-from-apple)
+  * [Checking for a firmware password](#checking-for-a-firmware-password)
   * [Custom fields in KeyServer client (`keyaccess`) plist
-](#Custom-fields-in-KeyServer-client-(`keyaccess`)-plist)
-  * [Writing data into nvram](#Writing-data-into-nvram)
-  * [Generating error email](#Generating-error-email)
+](#custom-fields-in-KeyServer-client-(`keyaccess`)-plist)
+  * [Writing data into nvram](#writing-data-into-nvram)
+  * [Generating error email](#generating-error-email)
   * [Installation](#installation)
   * [Execution](#execution)
 * [Attribution](#attribution) - information on how it all works
