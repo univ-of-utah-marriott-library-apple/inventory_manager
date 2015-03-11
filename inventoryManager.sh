@@ -185,7 +185,7 @@ fi
 /usr/sbin/nvram scl-data-line="$cleanedMarketingID:$serialNumber:$aqDate:S$scanNumber:L$assetNumber:$appleCare:$daysSincePurchase:$firmWarePassword"
 
 # If the error flag is flipped, generate an email.
-# One monolithic error email is a bit vague. Duh.
+# One monolithic error email is a bit vague, but sufficient.
 if $dataError
 then
 #	echo "generate error"
