@@ -69,7 +69,7 @@ mailto=""
 tempWarrantyPage=/tmp/appleWarrantyPage
 
 # OS Version
-osVersion="$(/usr/bin/sw_vers | /usr/bin/grep ProductVersion | /usr/bin/cut -d. -f2)"
+osVersion="$(/usr/bin/sw_vers -productVersion | /usr/bin/cut -d. -f2)"
 
 # Find the model ID (ie "MacPro4,1")
 modelID="$(/usr/sbin/system_profiler SPHardwareDataType | /usr/bin/grep Ident | /usr/bin/cut -d":" -f2 | cut -d" " -f2)"
